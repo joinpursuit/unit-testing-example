@@ -1,0 +1,39 @@
+{
+  "name": "unit-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "$(npm bin)/jest --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "jest": "^24.3.1",
+    "nodemon": "^1.18.10",
+    "supertest": "^4.0.0"
+  },
+  "jest": {
+    "collectCoverage": true,
+    "coverageReporters": [
+      "json",
+      "lcov",
+      "text",
+      "clover",
+      "html"
+    ],
+    "collectCoverageFrom": [
+      "**/*.{js,jsx}",
+      "!**/node_modules/**",
+      "!**/vendor/**",
+      "!**/__fixtures__/**",
+      "!**/coverage/**",
+      "!index.js"
+    ]
+  }
+}
