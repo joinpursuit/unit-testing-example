@@ -1,4 +1,4 @@
-[![Coverage Status](https://coveralls.io/repos/github/joinpursuit/unit-testing-example/badge.svg?branch=master)](https://coveralls.io/github/joinpursuit/unit-testing-example?branch=master)
+[![Build Status](https://travis-ci.org/joinpursuit/unit-testing-example.svg?branch=master)](https://travis-ci.org/joinpursuit/unit-testing-example) [![Coverage Status](https://coveralls.io/repos/github/joinpursuit/unit-testing-example/badge.svg?branch=master)](https://coveralls.io/github/joinpursuit/unit-testing-example?branch=master)
 
 # Unit testing example
 
